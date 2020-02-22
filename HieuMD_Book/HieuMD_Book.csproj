@@ -217,7 +217,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\anh-dep-lam-say-dam-long-nguoi-11.jpg" />
+    <Content Include="Assets\css\bootstrap1.css" />
+    <Content Include="Assets\css\font-awesome1.css" />
+    <Content Include="Assets\css\font\fontawesome-webfont.svg" />
+    <Content Include="Assets\css\font\glyphicons-halflings-regular.svg" />
     <Content Include="Assets\css\hieu.css" />
+    <Content Include="Assets\css\jstarbox1.css" />
     <Content Include="Assets\css\Login.css" />
     <Content Include="Assets\css\bootstrap.css" />
     <Content Include="Assets\css\bootstrap.min.css" />
@@ -228,6 +233,7 @@
     <Content Include="Assets\css\plugins\social-buttons\social-buttons.css" />
     <Content Include="Assets\css\plugins\timeline\timeline.css" />
     <Content Include="Assets\css\sb-admin.css" />
+    <Content Include="Assets\css\style1.css" />
     <Content Include="Assets\font-awesome\css\font-awesome.css" />
     <Content Include="Assets\font-awesome\css\font-awesome.min.css" />
     <Content Include="Assets\font-awesome\fonts\fontawesome-webfont.svg" />
@@ -249,6 +255,16 @@
     <Content Include="Assets\js\demo\morris-demo.js" />
     <Content Include="Assets\js\hieu.js" />
     <Content Include="Assets\js\jquery-1.10.2.js" />
+    <Content Include="Assets\js\JSNew\bootstrap.js" />
+    <Content Include="Assets\js\JSNew\easing.js" />
+    <Content Include="Assets\js\JSNew\easyResponsiveTabs.js" />
+    <Content Include="Assets\js\JSNew\jquery-1.11.1.min.js" />
+    <Content Include="Assets\js\JSNew\jquery.mycart.js" />
+    <Content Include="Assets\js\JSNew\jquery.vide.min.js" />
+    <Content Include="Assets\js\JSNew\jquery.zoomtoo.js" />
+    <Content Include="Assets\js\JSNew\jstarbox.js" />
+    <Content Include="Assets\js\JSNew\modernizr.custom.js" />
+    <Content Include="Assets\js\JSNew\move-top.js" />
     <Content Include="Assets\js\plugins\dataTables\dataTables.bootstrap.js" />
     <Content Include="Assets\js\plugins\dataTables\jquery.dataTables.js" />
     <Content Include="Assets\js\plugins\flot\excanvas.min.js" />
@@ -347,6 +363,15 @@
     <Content Include="Scripts\ckeditor\LICENSE.md" />
     <Content Include="Scripts\ckeditor\README.md" />
     <Content Include="Scripts\ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="Assets\css\font\fontawesome-webfont.eot" />
+    <Content Include="Assets\css\font\fontawesome-webfont.ttf" />
+    <Content Include="Assets\css\font\fontawesome-webfont.woff" />
+    <Content Include="Assets\css\font\fontawesome-webfont.woff2" />
+    <Content Include="Assets\css\font\FontAwesome.otf" />
+    <Content Include="Assets\css\font\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\css\font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\css\font\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\css\font\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\build-config.js" />
