@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BookStoreManagementCodeFirst.Publisher>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr class="success">
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink(" ", "Edit", new { id=item.PubId } ,new { @class = "fas fa-edit" }) |
+
+        <a href="@Url.Action("Delete", "Publisher", new { @id = item.PubId })" class="fas fa-trash-alt" onclick="return confirm('Are you sure')"></a> |
+          
+            
+        </td>
+    </tr>
+}
+
+</table>

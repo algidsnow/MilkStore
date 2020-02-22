@@ -1,0 +1,72 @@
+﻿ @*<div class="modal fade" id="modalCategoryAdd"  tabindex="-1"  role="dialog"  aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered" role="document">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4 class="modal-title">Add Category</h4>
+                 </div>
+                 <form class="form" name="frmAddAuthor" method="post">
+                     <div class="modal-body">
+                         <div class="form-group">
+                             <label>Category Name</label>
+                             <input class="form-control" name="CateName" id="CategoryName">
+                             <p class="error text-danger" id="name-error" hidden>Category name is required</p>
+                         </div>
+                         <div class="form-group">
+                             <label>Description</label>
+                             <textarea class="form-control" rows="5" name="Description" id="CategoryDescription"></textarea>
+                             <p class="error text-danger" id="history-error" hidden>Description is required</p>
+                         </div>
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-info" id="btnAddCategory">Save</button>
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     </div>
+                 </form>
+             </div>
+
+         </div>
+     </div>
+     </div>*@
+
+
+ 
+<div class="modal fade" id="modalCategoryAdd" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            @*<div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>*@
+            @*<div class="modal-body">*@
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Add Category</h4>
+                    </div>
+                    <form class="form" name="frmAddAuthor" method="post">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>Category Name</label>
+                                <input class="form-control" name="CateName" id="CategoryName">
+                                <p class="error text-danger" id="name-error" hidden>Category name is required</p>
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <textarea class="form-control" rows="5" name="Description" id="CategoryDescription"></textarea>
+                                <p class="error text-danger" id="history-error" hidden>Description is required</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal"  id="btnAddCategory">Save</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+@*</div>*@

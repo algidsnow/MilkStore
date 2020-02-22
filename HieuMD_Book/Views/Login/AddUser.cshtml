@@ -1,0 +1,117 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+<style>
+.check-input{
+    display:none;
+    color:red;
+}
+
+</style>
+<body style="background: url(/Assets/images/wallpaper-4k-hinh-nen-4k-phong-canh-troi-dem-dep_100019845.jpg) no-repeat fixed center;color:#d1e81c">
+ 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <h1>Đăng ký tài khoản</h1>
+                    <form role="form" action="/Login/AddUser/" method="post">
+                        <div class="form-group">
+                            <label>
+                                Tên đăng nhập
+                            </label>
+                            <input type="text" class="form-control form-control1" name="UserName" />
+                            <span class="check-input">    
+                                Input data
+                            </span>
+
+                        
+                        </div>
+                        <div class="form-group">
+
+                            <label>
+                                Mật khẩu
+                            </label>
+                            <input type="password" class="form-control form-control1" name="Password" id="Password"  />
+                            <span class="check-input">
+                                Input data
+                            </span>
+                        </div>
+                        <div class="form-group">
+
+                            <label>
+                                Nhập lại mật khẩu
+                            </label>
+                            <input type="password" class="form-control form-control1" name="Nhaplai" id="Nhaplai" />
+                            <span class="check-input">
+                                Input data
+                            </span>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label>
+                                Email
+                            </label>
+                            <input type="email" class="form-control form-control1" name="Email" />
+                            <span class="check-input">
+                                Input data
+                            </span>
+                        </div>
+
+
+
+                        <button type="submit" style="background-color:#4b00ff"  onclick="return checkValid()" class="btn btn-primary">
+                            Đăng ký
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </body>
+<script>
+    function checkValid() {
+        var valid = true;
+        var item = document.getElementsByClassName('form-control1');
+        var check = document.getElementsByClassName('check-input');
+        
+        var Password = document.getElementById('Password').value;
+        var Nhaplai = document.getElementById('Nhaplai').value;
+      
+       
+            if (Password == Nhaplai) {
+                
+                valid = true;
+            }
+            else {
+                alert("Nhap lai mat khau khong chinh xac")
+                valid = false;
+              
+                Clear();
+
+            }
+
+        for (var i = 0; i < item.length; i++) {
+            if (item[i].value == "") {
+                item[i].style.border = '5px solid #6fe278';
+                check[i].style.display = 'block';
+                valid = false;
+            }
+            if (item[i].value != "") {
+                item[i].style.border = '1px solid #ccc';
+                check[i].style.display = 'none';
+
+            }
+        }
+        return valid;
+    }
+   
+
+</script>

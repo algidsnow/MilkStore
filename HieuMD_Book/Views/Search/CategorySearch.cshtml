@@ -1,0 +1,9 @@
+﻿@model IEnumerable<BookStoreManagementCodeFirst.Category>
+
+<h2>Category</h2>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <li><a href="/Book/ListByCategory/@item.CateName">@item.CateName</a></li>
+    }
+</div>

@@ -1,0 +1,252 @@
+﻿@model BookStoreManagementCodeFirst.Book
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("AddCategory")
+@Html.Partial("AddAuthor")
+@Html.Partial("AddPublisher")
+
+<h2 style="text-align:center;">CREATE</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4, from LayoutIt!</title>
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    @*<link href="~/Assets/css/bootstrap.min.css" rel="stylesheet">*@
+</head>
+<body>
+    <form role="form" action=@(Model == null ? "/Book/Create" : "/Book/Edit/" + Model.BookId) method="post" enctype="multipart/form-data">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="form-group">
+
+                        <label>
+                            Tên sách
+                        </label>
+                        <input class="form-control form-control1" name="BookName" id="BookName" value="@(Model == null ? string.Empty : Model.BookName )">
+                        <span class="check-input">
+                            Input Data
+                        </span>
+                    </div>
+
+                    <label>
+                        Tác giả
+                    </label>
+                    <div class="form-group">
+                        <select class="form-control" name="AuthorID" id="AuthorID">
+                            @foreach (var item in ViewBag.ListAuthor)
+                            {
+                                if (Model != null && item.AuthorId == Model.AuthorId)
+                                {
+                                    <option selected value="@item.AuthorId">@item.AuthorName</option>
+                                }
+
+                                else
+                                {
+                                    <option value="@item.AuthorId">@item.AuthorName</option>
+                                }
+                            }
+
+                        </select>
+                        <button type="button" class="fas fa-angle-double" data-toggle="modal" data-target="#modalAuthorAdd"><i class="fas fa-plus"></i></button>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Tóm tắt
+                        </label>
+                        @if (Model == null)
+                        {
+                            <textarea type="text" class="form-control ckeditor" id="summary" placeholder="Enter summary" name="Summary" value=""></textarea>
+                        }
+                        else
+                        {
+                            <textarea type="text" class="form-control ckeditor" id="summary" placeholder="Enter summary" name="Summary">@Html.Raw(Model.Summary)</textarea>
+                        }
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+
+                    <div class="form-group">
+
+                        <label>
+                            Giá thành
+                        </label>
+                        <input type="number" class="form-control form-control1" id="Price" name="Price" value="@((Model == null ) ? "" : Model.Price.ToString())">
+                        <span class="check-input">
+                            Input data
+                        </span>
+
+                    </div>
+                    <div class="form-group">
+
+                        <label>
+                            Số lượng
+                        </label>
+                        <input type="number" class="form-control  form-control1" id="Quantity" name="Quantity" value="@((Model == null ?  "" : Model.Quantity.ToString()))">
+                        <span class="check-input">
+                            Input Data
+                        </span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            Nhà Xuất Bản
+                        </label>
+                        <select class="form-control" name="PubId" id="PubId">
+                            @foreach (var item in ViewBag.ListPublisher)
+                            {
+                                if (Model != null && item.PubId == Model.PubId)
+                                {
+                                    <option selected value="@item.PubId">@item.Name</option>
+                                }
+                                else
+                                {
+
+                                    <option value="@item.PubId">@item.Name</option>
+                                }
+                            }
+
+                        </select>
+                        <button type="button" class="fas fa-angle-double" data-toggle="modal" data-target="#modalPublisherAdd"><i class="fas fa-plus"></i></button>
+
+                    </div>
+
+                    <!-- Button trigger modal -->
+
+
+
+
+
+                    <div class="form-group">
+                        <label>
+                            Thể Loại
+                        </label>
+                        <select class="form-control" name="CateId" id="CateId">
+                            @foreach (var item in ViewBag.ListCategory)
+                            {
+                                if (Model != null && item.CateId == Model.CateId)
+                                {
+                                    <option selected value="@item.CateId">@item.CateName</option>
+                                }
+
+
+                                <option value="@item.CateId">@item.CateName</option>
+                            }
+
+                        </select>
+                        <button type="button" class="fas fa-angle-double" data-toggle="modal" data-target="#modalCategoryAdd"><i class="fas fa-plus"></i></button>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            isActive
+                        </label>
+                        @if (Model != null && Model.IsActive == true)
+                        {
+                            <input type="checkbox" name="isActive" checked value="true" id="vehicleChkBox">
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="isActive" value="false" id="vehicleChkBox">
+                        }
+
+                    </div>
+                    <div class="form-group">
+
+                        <label for="exampleInputFile">
+                            File input
+                        </label>
+                        @if (Model == null)
+                        {
+                            <input type="file" class="form-control-file" id="imgInp" name="ImgUrl" />
+                            <p class="help-block">
+                                Example block-level help text here.
+                            </p>
+                            <div class="form-group">
+
+                                <img alt="Image Preview" id="blah" width="100" height="100" />
+                            </div>
+                        }
+                        else
+                        {
+                            <input type="file" class="form-control-file" id="imgInp" name="ImgUrl"/>
+                            <div>
+                                <div class="form-group">
+                                    <input type="text" name="ImgUrl" value="@Model.ImgUrl" hidden="hidden" />
+                                    <img src="/Assets/images/@Model.ImgUrl" alt="Image Preview" id="blah" width="100" height="100" name="ImgUrl" />
+                                </div>
+                            </div>
+                            
+
+                        }
+
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div style="text-align:center">
+                <button class="btn btn-success" onclick="return checkValid()" type="submit">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </form>
+
+    @*<script src="~/Assets/js/bootstrap.min.js"></script>*@
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    @*<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>*@
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+    <script src="~/Scripts/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/JavaScript.js"></script>
+        @*<script>
+                    CKEDITOR.replace("summary");
+                </script>*@
+    <script>
+        $(document).ready(() => {
+            function readURL(input) {
+
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('#blah').attr('src', e.target.result);
+                    }
+
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+
+            $("#imgInp").change(function () {
+                readURL(this);
+            });
+        })
+
+    </script>
+    <script src="/Scripts/Controller/AddBookJs.js"></script>
+</body>
+</html>

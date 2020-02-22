@@ -1,0 +1,12 @@
+﻿@model IEnumerable<BookStoreManagementCodeFirst.Book>
+
+<h2>Books of category.....</h2>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <h2>@item.BookName</h2>
+            <p>@item.Author.AuthorName</p>
+        </div>
+    }
+</div>

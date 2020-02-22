@@ -1,0 +1,118 @@
+﻿@model PagedList.IPagedList<BookStoreManagementCodeFirst.Book>
+
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    canvas {
+        cursor: crosshair;
+        display: block;
+    }
+</style>
+
+
+    <h2>Index</h2>
+
+
+
+    <p>
+        <a href="/Book/Create">
+            <i class="fa fa-2x fa-crosshairs"></i>
+        </a>
+    </p>
+
+
+    
+    <table class="table table-bordered">
+        <tr class="warning">
+            <th>
+              Tên sách
+            </th>
+
+            <th>
+                Tác Giả
+            </th> 
+              
+            <th>
+                Nhà Xuất Bản
+            </th>
+
+            <th>
+                Anh
+            </th>
+
+            <th>
+                Giá
+            </th>
+
+            <th>
+              Số lượng
+            </th>
+
+            <th>
+               Ngày tạo
+            </th>
+         
+
+            <th>
+              Active
+            </th>
+
+            <th>Action Tool</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr class="info">
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author.AuthorName)
+                    
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Publisher.Name)
+                </td>
+
+                 <td>
+                    <div>
+                        <img src="/Assets/images/@item.ImgUrl" width="100" height="100">
+                    </div>
+                <td>
+                    @item.Price.ToString("C0", CultureInfo.CreateSpecificCulture("vi-VN"))
+                    @*@Html.DisplayFor(modelItem => item.Price.ToString("C0", CultureInfo.CreateSpecificCulture("vi-VN")))*@
+                </td>
+                <td>
+                   @item.Quantity
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateDate)
+                </td>
+              
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+                <td>
+                    @Html.ActionLink(" ", "Edit", new { id = item.BookId }, new { @class = "fas fa-edit" })
+
+                    @*@Html.ActionLink(" ", "Delete", new { id = item.BookId }, new { @class = "fas fa-trash-alt" })*@
+                    @*<form action="/book/delete/@item.BookId"  method="post"><input type="submit" class="fas fa-trash-alt" onclick="return confirm('Chac chan khong????')" value="Delete"></form>*@
+                    <a href="@Url.Action("Delete", "Book", new { @id = item.BookId })" class="fas fa-trash-alt" onclick="return confirm('Chac chan khong????')"></a>
+                   
+                </td>
+
+            </tr>
+        }
+    </table>
+
+
+<script src="~/Assets/View/js/hieu.js"></script>
+@Html.PagedListPager(Model,page=>Url.Action("Index", new { page }))
+

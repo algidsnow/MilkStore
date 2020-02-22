@@ -1,0 +1,187 @@
+﻿@model List<BookStoreManagementCodeFirst.CartItem>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayOutUser.cshtml";
+}
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+<head>
+    <style>
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+@{
+    decimal totalMoney = 0;
+}
+
+<div>
+    <h3 style="color:red;font-family:initial">@TempData["Quantity"]</h3>
+    <h2>@TempData["Name"]</h2>
+
+    <h3>Giỏ Hàng</h3>
+    <a href="/ViewHome/Index/" id="btnTiepTuc" class="button">Tiếp tục mua hàng</></a>
+</div>
+
+<table class="table" style="width:100%; border:1px solid Green;" cellspacing="1" cellpadding="1">
+    <thead>
+        <tr style="padding:10px; background:#444;color:#fff;font-weight:700;text-align: center">
+            <td width="10%">
+                Mã
+            </td>
+            <td style="text-align: center">
+                Tên sản phẩm
+            </td>
+
+            <td style="text-align: center">
+                Ảnh
+            </td>
+
+            <td style="text-align: center">
+                Số lượng
+            </td>
+
+            <td>
+                Đơn giá
+            </td>
+            <td>
+                Thành Tiền
+            </td>
+            <td>
+                Action
+            </td>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr id="tr-@item.book.BookId">
+                <td id="idd-@item.book.BookId" width="10%" style="border:1px solid green">@item.book.BookId</td>
+                <td style="border:1px solid green; padding:10px">@item.book.BookName</td>
+                <td style="border:1px solid green; padding:10px"><img src="/Assets/images/@item.book.ImgUrl" width="50" height="50" /></td>
+                <td id="td-@item.book.BookId" style="border:1px solid green; padding:10px">@item.Quantity</td>
+                <td id="Quantity-@item.book.BookId" hidden="hidden">@item.book.Quantity</td>
+                <td style="border:1px solid green; padding:10px">@item.book.Price </td>
+                <td id="tt-@item.book.BookId" style="border:1px solid green; padding:10px">@(item.book.Price * item.Quantity)</td>
+                @{
+                    totalMoney += item.book.Price * item.Quantity;
+                }
+
+
+                <td style="border:1px solid green; padding:10px">
+                    @*<a href="/CartItem/SuaSoLuong?BookId=@item.book.BookId" class="fas fa-minus-circle"></a>
+                        <a href="/CartItem/ThemSoLuong?BookId=@item.book.BookId" class="fas fa-plus-circle"></a>
+                        <a href="@Url.Action("XoaKhoiGio", "CartItem", new { @bookid = item.book.BookId })" class="fas fa-trash-alt" onclick="return confirm('Are you sure')"></a>*@
+                    <a href="javascript: void(0)" class="fas fa-minus-circle btnMinus" data-id="@item.book.BookId" data-quantity="@item.book.Quantity" data-price="@item.book.Price"></a>
+                    <a href="javascript: void(0)" class="fas fa-plus-circle btnPlus" data-id="@item.book.BookId" @*data-quantity="@item.Quantity"*@ data-price="@item.book.Price"></a>
+                    @*<a href="@Url.Action("XoaKhoiGio", "CartItem", new { @bookid = item.book.BookId })" class="fas fa-trash-alt" onclick="return confirm('Are you sure')"></a>*@
+                    <a class="fas fa-trash-alt btndelete" data-id="@item.book.BookId" href="javascript:void(0)"></a>
+                </td>
+
+            </tr>
+                    }
+    </tbody>
+</table>
+<div style="text-align:right">
+
+    <a href="/CartItem/Pay" class="button">Thanh Toán</a>
+    <p class="button">
+        Thành Tiền: <span id="total">@totalMoney</span>
+    </p>
+
+
+
+
+</div>
+@section JsFooter{
+    <script>
+        jQuery.browser = {};
+        (function () {
+            jQuery.browser.msie = false;
+            jQuery.browser.version = 0;
+            if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+                jQuery.browser.msie = true;
+                jQuery.browser.version = RegExp.$1;
+            }
+        })();
+        $('.btnPlus').on('click', function () {
+         
+            var id = $(this).data('id');
+            var price = $(this).data('price');
+
+            $.get("/CartItem/ThemSoLuong", { BookId: id }).done(function (reponse) {
+                if (reponse) {
+                    var quantity = $('#td-' + id).text() * 1;
+                    $('#td-' + id).text(quantity + 1);
+                    var newPrice = price * 1 * (quantity + 1);
+                    var oldTotal = $('#total').text();
+                    var oldPrice = $('#tt-' + id).text();
+                    $('#tt-' + id).text(newPrice);
+                    $('#total').text(oldTotal * 1 - oldPrice * 1 + newPrice * 1);
+                }
+                else {
+                    alert('Khong du so luong');
+                }
+                
+            })
+        })
+
+        $('.btnMinus').on('click', function () {
+            var id = $(this).data('id');
+            var price = $(this).data('price');
+            var DataQuantity = $(this).data('quantity')
+            $.get("/CartItem/SuaSoLuong", { BookId: id }).done(function (response) {
+                var quantity = $('#td-' + id).text() * 1;
+                if (quantity == 1) {
+                    $(this).disabled = true;
+                    return;
+                    alert('Ban hay xoa san pham');
+                }
+                
+                $('#td-' + id).text(quantity - 1);
+                
+
+                var newPrice = price * 1 * (quantity - 1);
+                var oldTotal = $('#total').text();
+                var oldPrice = $('#tt-' + id).text();
+                $('#tt-' + id).text(newPrice);
+                $('#total').text(oldTotal * 1 - oldPrice * 1 + newPrice * 1);
+            })
+
+
+        })
+        $(".btndelete").on('click', function () {
+            var id = $(this).data('id');
+            $.get("/CartItem/XoaKhoiGio", { BookId: id }).done(function (response) {
+                var price = $('#tt-' + id).text();
+                $('#tr-' + id).remove();
+                var tt = $('#total').text();
+                $('#total').text(tt * 1 - price * 1);
+            })
+        })
+
+    </script>
+}
+
+
+
+
+
+
+
+
+

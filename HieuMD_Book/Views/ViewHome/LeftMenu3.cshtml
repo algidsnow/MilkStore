@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Publisher>
+
+<li>
+    <h4>Nhà xuất bản</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="/ViewHome/ListBookOfPublisher/@item.PubId">@item.Name</a></li>
+        }
+    </ul>
+</li>
+
+

@@ -1,0 +1,56 @@
+﻿@model PagedList.IPagedList<BookStoreManagementCodeFirst.Book>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayOutUser.cshtml";
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h3 style="color:red;">@TempData["MessageBox"]</h3>
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+<div class="products">
+    <form style="text-align:right;" action="/ViewHome/Seach/">
+        <input style="padding:10px;width:29%;" type="text" id="txtKeyword" name="input" placeholder="Tìm kiếm"><button type="submit" style="width:30px;height:41px;background-color:aqua;padding:10px 20px;"><i class="fas fa-search"></i></button>
+    </form>
+    <h3>Sách</h3>
+  
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <div class="product" >
+                    <a href="/Book/Detail/@item.BookId" class="info">
+                        <span class="holder">
+                            <img src="~/Assets/images/@item.ImgUrl" alt="ERROR"/>
+                            <span class="book-name" style="text-align:center">@item.BookName</span>
+                            <span class="author" style="text-align:center">@item.Author.AuthorName</span>
+                            <span class="Publisher" style="text-align:center">@item.Publisher.Name</span>
+
+                        </span>
+                        <div class="price" style="color:red;text-align:center"> @item.Price.ToString("C0", CultureInfo.CreateSpecificCulture("vi-VN"))</div>
+                    </a>
+
+                    <a href="/CartItem/AddItem?BookId=@item.BookId&Quantity=1" class="buy-btn">Mua</a>
+                </div>
+
+
+            </li>
+        }
+
+    </ul>
+</div>
+<style>
+    .book-name {
+        min-height: 40px
+    }
+    .holder img {
+        width: 100px;
+        height: 150px
+    }
+</style>
+<div style="clear:both;text-align:center">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page =page}))
+</div>
+

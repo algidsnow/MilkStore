@@ -1,0 +1,36 @@
+﻿@model BookStoreManagementCodeFirst.Author
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <form role="form" action="/Author/Edit/@Model.AuthorId" method="Post">
+                <div class="form-group">
+
+                    <label>
+                        AuthorName
+                    </label>
+                    <input type="text" class="form-control" name="AuthorName" style="width:300px"  value="@Model.AuthorName"/>
+                </div>
+                <div class="form-group">
+
+                    <label>
+                        History
+                    </label>
+                    <input type="text" class="form-control" name="History" style="width:300px" value="@Model.History"/>
+                </div>
+
+
+                <button type="submit" class="btn btn-success">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+

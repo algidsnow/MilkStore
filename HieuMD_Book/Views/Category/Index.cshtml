@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BookStoreManagementCodeFirst.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr class="success">
+        <th>
+            @Html.DisplayNameFor(model => model.CateId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+
+        <th>
+            Action
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CateId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CateName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.ActionLink(" ", "Edit", new { id = item.CateId }, new { @class = "fas fa-edit" }) |
+
+           <a href="@Url.Action("Delete", "Category", new { @id = item.CateId })" class="fas fa-trash-alt" onclick="return confirm('Are you sure')"></a>
+        </td>
+    </tr>
+}
+
+</table>

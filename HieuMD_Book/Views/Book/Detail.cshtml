@@ -1,0 +1,64 @@
+﻿@model BookStoreManagementCodeFirst.Book
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/LayOutUser.cshtml";
+}
+
+<h2>Chi Tiết</h2>
+
+<div>
+
+
+    <div>
+        <h3>Ảnh</h3>
+
+        <img src="~/Assets/images/@Model.ImgUrl" width="500px" height="500px">
+    </div>
+
+
+    <div>
+        <h3>Tóm tắt nội dung</h3>
+        <div>
+            @Html.Raw(Model.Summary)
+        </div>
+       
+    </div>
+
+
+
+
+
+</div>
+<br><br><br />
+
+
+<div>
+
+    @Html.ActionLink("Back to List", "Index", "ViewHome")
+
+    <a href="/CartItem/AddItem?BookId=@Model.BookId&Quantity=1" style="padding:10px;background-color:red;color:white; font-size:50px">Mua</a>
+
+
+</div>
+<br><br><br />
+
+@foreach (var item in Model.Comments)
+{
+    <div>
+        <img src="~/Assets/images/10.png" width="50px" height="50px" />
+        <p>@item.UserName</p>
+        <p>@item.CreatedDate</p>
+        <p>@item.Content</p>
+     
+    </div>
+   
+}
+<form action="@Url.Action("Detail", "Book", new { id=Model.BookId })" method="post">
+    <div class="Comment" style="text-align:left;float:left">
+        <textarea rows="3" style="height:100px;width:500px;font-size:20px" name="Content"> </textarea>
+        <div>
+            <input type="submit" style="font-size:20px" class="submit-btn" value="Ý kiến">
+        </div>
+    </div>
+</form>

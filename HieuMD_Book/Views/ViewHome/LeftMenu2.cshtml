@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Category>
+
+<li>
+    <h4>Thể Loại</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="/ViewHome/ListBookOfCategory/@item.CateId">@item.CateName</a></li>
+        }
+    </ul>
+</li>
+

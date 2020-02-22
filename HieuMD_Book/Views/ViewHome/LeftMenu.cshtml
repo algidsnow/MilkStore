@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Author>
+
+<li>
+    <h4>Tác giả</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="/ViewHome/ListBookOfAuthor/@item.AuthorId">@item.AuthorName</a></li>
+        }
+    </ul>
+</li>
+
+
