@@ -1,0 +1,120 @@
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\Repository.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\obj\Debug\Repository.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.dll
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+C:\Users\admin\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.dll
+C:\Users\admin\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+G:\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+G:\HieuMD_Book\Repository\bin\Debug\Repository.dll
+G:\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+G:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+G:\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+G:\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+G:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+G:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll.config
+G:\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+G:\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+G:\HieuMD_Book\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+G:\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+G:\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CopyComplete
+G:\HieuMD_Book\Repository\obj\Debug\Repository.dll
+G:\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+E:\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+E:\HieuMD_Book\Repository\bin\Debug\Repository.dll
+E:\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+E:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+E:\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+E:\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+E:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll.config
+E:\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+E:\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\HieuMD_Book\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+E:\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+E:\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CopyComplete
+E:\HieuMD_Book\Repository\obj\Debug\Repository.dll
+E:\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+D:\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+D:\HieuMD_Book\Repository\bin\Debug\Repository.dll
+D:\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+D:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+D:\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+D:\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+D:\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+D:\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\HieuMD_Book\Repository\obj\Debug\Repository.dll
+D:\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+D:\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll.config
+D:\HieuMD_Book\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+D:\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Training\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Training\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.pdb
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.Mvc.dll
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.xml
+C:\Users\Training\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.Mvc.xml
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.dll
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.Mvc.dll
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.xml
+C:\Users\Admin\Downloads\HieuMD_Book\Repository\bin\Debug\PagedList.Mvc.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\Repository.dll.config
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\Repository.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\Repository.pdb
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\EntityFramework.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\PagedList.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\PagedList.Mvc.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.pdb
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\BookStoreManagementCodeFirst.dll.config
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\EntityFramework.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\PagedList.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\bin\Debug\PagedList.Mvc.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\obj\Debug\Repository.csproj.CopyComplete
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\obj\Debug\Repository.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Repository\obj\Debug\Repository.pdb

@@ -1,0 +1,116 @@
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\Services.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\Services.pdb
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\Repository.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\Repository.pdb
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\obj\Debug\Services.dll
+C:\Users\Training\Documents\Visual Studio 2015\Projects\HieuMD_Book\Services\obj\Debug\Services.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\Services.dll
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\Services.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\Repository.dll
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\Repository.pdb
+C:\Users\admin\Downloads\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+C:\Users\admin\Downloads\HieuMD_Book\Services\obj\Debug\Services.dll
+C:\Users\admin\Downloads\HieuMD_Book\Services\obj\Debug\Services.pdb
+G:\HieuMD_Book\Services\bin\Debug\Services.dll
+G:\HieuMD_Book\Services\bin\Debug\Services.pdb
+G:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+G:\HieuMD_Book\Services\bin\Debug\Repository.dll
+G:\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+G:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+G:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll.config
+G:\HieuMD_Book\Services\bin\Debug\Repository.pdb
+G:\HieuMD_Book\Services\bin\Debug\Repository.dll.config
+G:\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+G:\HieuMD_Book\Services\obj\Debug\Services.csprojAssemblyReference.cache
+G:\HieuMD_Book\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+G:\HieuMD_Book\Services\obj\Debug\Services.csproj.CopyComplete
+G:\HieuMD_Book\Services\obj\Debug\Services.dll
+G:\HieuMD_Book\Services\obj\Debug\Services.pdb
+E:\HieuMD_Book\Services\bin\Debug\Services.dll
+E:\HieuMD_Book\Services\bin\Debug\Services.pdb
+E:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+E:\HieuMD_Book\Services\bin\Debug\Repository.dll
+E:\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+E:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+E:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll.config
+E:\HieuMD_Book\Services\bin\Debug\Repository.pdb
+E:\HieuMD_Book\Services\bin\Debug\Repository.dll.config
+E:\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+E:\HieuMD_Book\Services\obj\Debug\Services.csprojAssemblyReference.cache
+E:\HieuMD_Book\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+E:\HieuMD_Book\Services\obj\Debug\Services.csproj.CopyComplete
+E:\HieuMD_Book\Services\obj\Debug\Services.dll
+E:\HieuMD_Book\Services\obj\Debug\Services.pdb
+D:\HieuMD_Book\Services\bin\Debug\Services.dll
+D:\HieuMD_Book\Services\bin\Debug\Services.pdb
+D:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+D:\HieuMD_Book\Services\bin\Debug\Repository.dll
+D:\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+D:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+D:\HieuMD_Book\Services\bin\Debug\Repository.pdb
+D:\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+D:\HieuMD_Book\Services\obj\Debug\Services.dll
+D:\HieuMD_Book\Services\obj\Debug\Services.pdb
+D:\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll.config
+D:\HieuMD_Book\Services\bin\Debug\Repository.dll.config
+D:\HieuMD_Book\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\HieuMD_Book\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\HieuMD_Book\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\Services.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\Services.pdb
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\Repository.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\Repository.pdb
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+C:\Users\Training\Downloads\HieuMD_Book\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Training\Downloads\HieuMD_Book\Services\obj\Debug\Services.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\obj\Debug\Services.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\Services.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\Services.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\Repository.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\Repository.pdb
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\obj\Debug\Services.dll
+C:\Users\AlgidSnow\Downloads\HieuMD_Book\Services\obj\Debug\Services.pdb
+C:\Users\Admin\Downloads\HieuMD_Book\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.Mvc.dll
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.xml
+C:\Users\Training\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.Mvc.xml
+C:\Users\Admin\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.dll
+C:\Users\Admin\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.Mvc.dll
+C:\Users\Admin\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.xml
+C:\Users\Admin\Downloads\HieuMD_Book\Services\bin\Debug\PagedList.Mvc.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\Services.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\Services.pdb
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\PagedList.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\PagedList.Mvc.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\Repository.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\EntityFramework.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.pdb
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\BookStoreManagementCodeFirst.dll.config
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\Repository.pdb
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\Repository.dll.config
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\PagedList.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\PagedList.Mvc.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\bin\Debug\EntityFramework.xml
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\obj\Debug\Services.csprojAssemblyReference.cache
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\obj\Debug\Services.csproj.CopyComplete
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\obj\Debug\Services.dll
+D:\ATNB_FINAL_FR_06\HieuMD_Book\Services\obj\Debug\Services.pdb
